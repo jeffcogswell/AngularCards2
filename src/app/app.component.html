@@ -12,7 +12,7 @@
 
   <ng-container *ngIf="cards">
     <ng-container *ngFor="let card of cards.cards">
-      <img src="{{card.image}}" />
+      <app-one-card [card]="card"></app-one-card>
     </ng-container>
   </ng-container>
 

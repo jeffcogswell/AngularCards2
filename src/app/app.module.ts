@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
+import { OneCardComponent } from './one-card/one-card.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    OneCardComponent
   ],
   imports: [
     BrowserModule,

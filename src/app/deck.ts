@@ -5,16 +5,16 @@ export interface Deck {
     success: Boolean
 }
 
+export interface Card {
+    image: String,
+    value: String,
+    suit: String,
+    code: String
+}
+
 export interface Cards {
     success: Boolean,
-    cards: [
-        {
-            image: String,
-            value: String,
-            suit: String,
-            code: String
-        }
-    ],
+    cards: Card[],
     deck_id: String,
     remaining: Number
 }
