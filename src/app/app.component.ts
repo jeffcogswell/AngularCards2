@@ -42,16 +42,3 @@ export class AppComponent {
 		}
 	}
 }
-
-/*
-
-let x = "hello";
-
-// This if statement just means "is something in it" in JavaScript
-if (x) {
-
-}
-
-
-*/
-
